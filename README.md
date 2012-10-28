@@ -10,6 +10,7 @@ jquery-dragsort-rails is a library that integrates jQuery List Drag Sort for Rai
 
 ## Installing Gem
 Add this in your Gemfile:
+
     gem "jquery-dragsort-rails"
 
 ## How to use this plugin
