@@ -1,7 +1,11 @@
 # encoding: UTF-8
+
+#!/usr/bin/env rake
+
 require 'rubygems'
 begin
   require 'bundler/setup'
+  require 'bundler'
 rescue LoadError
   puts 'You must `gem install bundler` and `bundle install` to run rake tasks'
 end
@@ -27,3 +31,16 @@ Rake::RDocTask.new(:rdoc) do |rdoc|
   rdoc.rdoc_files.include('README.md')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
+
+Bundler::GemHelper.install_tasks
+
+desc "Bundle the gem"
+task :bundle do
+  sh('bundle install')
+  sh 'gem build *.gemspec'
+  sh 'gem install *.gem'
+  sh 'rm *.gem'
+end
+
+task(:default).clear
+task :default => :bundle

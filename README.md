@@ -66,4 +66,4 @@ In your products.js.cofee file -
 Thanks to [Codeplex](http://dragsort.codeplex.com/) for making list dragsort plugin available.
 
 ## License
-This project is released under and uses [MIT-LICENSE](/MIT-LICENSE).
+This project is released under and uses [MIT-LICENSE](MIT-LICENSE).
