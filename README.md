@@ -67,3 +67,4 @@ Thanks to [Codeplex](http://dragsort.codeplex.com/) for making list dragsort plu
 
 ## License
 This project is released under and uses [MIT-LICENSE](MIT-LICENSE).
+Go to [http://dragsort.codeplex.com/license](http://dragsort.codeplex.com/license) for more licensing infromation.
