@@ -1,6 +1,6 @@
 # jQuery Drag Sort for Rails 3.1 Asset Pipeline
 
-[jQuery-DragSort-Plugin](http://dragsort.codeplex.com/) is a list drag and sort plugin made available by and on [CodePlex](http://dragsort.codeplex.com/). jQuery List Drag Sort features list element's dragging, dropping, and saving the sorted list by user using jQuery.
+[jQuery DragSort Plugin](http://dragsort.codeplex.com/) is a list drag and sort plugin made available by and on [CodePlex](http://dragsort.codeplex.com/). jQuery List Drag Sort features list element's dragging, dropping, and saving the sorted list by user using jQuery.
 
 jquery-dragsort-rails is a library that integrates jQuery List Drag Sort for Rails 3.1 or above Asset Pipeline.
 
@@ -9,7 +9,7 @@ jquery-dragsort-rails is a library that integrates jQuery List Drag Sort for Rai
 * jQuery List Drag Sort Plugin v0.5.1
 
 ## Installing Gem
-
+Add this in your Gemfile:
     gem "jquery-dragsort-rails"
 
 ## How to use this plugin
